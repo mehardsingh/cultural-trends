@@ -1,0 +1,11 @@
+python ../scripts/wvs_query_hf.py \
+    --qid 2 \
+    --model bigscience/mt0-small \
+    --version 1 \
+    --lang en \
+    --max-tokens 10 \
+    --temp 0.7 \
+    --batch-size 4 \
+    --fewshot 0 \
+    --cuda 0 \
+    --country us

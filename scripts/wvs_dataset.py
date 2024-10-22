@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 from utils import read_json, read_yaml, read_file, read_raw, parse_range
-from wvs_measure_distance import create_wvs_question_map
+from utils import create_wvs_question_map
 
 scale_option_template = {
     "en": "To indicate your opinion, use a 10-point scale where “1” means “{}” and “10” means “{}”.",
@@ -104,13 +104,15 @@ class WVSDataset:
 
         country_cap = "US" if self.country == "us" else "Egypt"
 
-        selected_questions = read_file("../dataset/selected_questions.csv")[0].split(",")
+        # CHANGED: earlier it was "../dataset/selected_questions.csv"
+        selected_questions = read_file("../dataset/filtered_selected_questions.csv")[0].split(",")
         selected_questions = list(map(str.strip, selected_questions))
         selected_questions = [int(qnum[1:]) for qnum in selected_questions]
 
         wvs_question_map = create_wvs_question_map(survey_df.columns.tolist(), selected_questions)
 
-        wvs_response_map = read_json("../dataset/wvs_response_map_new.json")
+        # CHANGED: earlier it was "../dataset/wvs_response_map_new.json"
+        wvs_response_map = read_json("../dataset/wvs_response_map.json")
 
         options_dict = parse_range(read_json("../dataset/wvs_options.json"))
 
