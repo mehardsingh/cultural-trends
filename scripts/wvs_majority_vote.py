@@ -8,18 +8,20 @@ from tqdm import tqdm
 from glob import glob
 from utils import read_json, read_file, read_yaml, parse_range, parse_response_wvs, convert_to_percentages
 
-from wvs_measure_distance import convert_to_dataframe, create_wvs_question_map
+from utils import convert_to_dataframe, create_wvs_question_map
 
 demographic_ids = ["N_REGION_WVS Region country specific", "Q260 Sex", "Q262 Age", "Q266 Country of birth: Respondent", "Q273 Marital status", "Q275R Highest educational level: Respondent (recoded into 3 groups)", "Q287 Social class (subjective)"]
 demographic_txt = ["region", "sex", "age", "country", "marital_status", "education", "social_class"]
 
 if __name__ == "__main__":
 
-    COUNTRY = "egypt" # {egypt, us}
-    LANGS = ["ar", "en"]
+    COUNTRY = "us" # {egypt, us}
+    # LANGS = ["ar", "en"]
+    LANGS = ["en"]
 
     # MODELS = ['AceGPT-13B-chat', 'Llama-2-13b-chat-hf', "gpt-3.5-turbo-0613", "mt0-xxl"]
-    MODELS = ['AceGPT-13B-chat', 'Llama-2-13b-chat-hf', "gpt-3.5-turbo-1106", "mt0-xxl"]
+    # MODELS = ['AceGPT-13B-chat', 'Llama-2-13b-chat-hf', "gpt-3.5-turbo-1106", "mt0-xxl"]
+    MODELS = ['AceGPT-13B-chat']
     EVAL_METHOD = "mv_sample" # {"flatten", "mv_sample", "mv_all", "first"}
     SCALE_QS = False # {False, True}
 
@@ -69,7 +71,7 @@ if __name__ == "__main__":
                 survey_df[demographic_ids[demographic_txt.index("region")]] = survey_df[demographic_ids[demographic_txt.index("region")]].apply(lambda x: x.split(":")[-1][3:].strip())
 
             wvs_question_map = create_wvs_question_map(survey_df.columns.tolist(), selected_questions)
-            wvs_response_map = read_json("../dataset/wvs_response_map_new.json")
+            wvs_response_map = read_json("../dataset/wvs_response_map.json")
             
             if MODEL == "gpt-3.5-turbo-1106":
                 dirpath = f"../results_wvs_2_gpt/{MODEL}/{LANG}"
@@ -123,6 +125,7 @@ if __name__ == "__main__":
                 values = [match[0] for match in matches]
                 qidx = int(values[0])
 
+                os.makedirs("../dumps_wvs_2", exist_ok=True)
                 save_dump_path = f"../dumps_wvs_2/q={qidx}_country={COUNTRY}_lang={LANG}_model={MODEL}_eval={EVAL_METHOD}.csv"
         
                 # if qidx == 77 and COUNTRY == "egypt":

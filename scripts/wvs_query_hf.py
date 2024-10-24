@@ -66,6 +66,7 @@ def query_hf(
     country: str = "egypt",
 ):
     
+    print(f"> Model name: {model_name}")
     model_name_ = model_name.split("/")[-1]
     savedir = f"../results_wvs_2/{model_name_}/{lang}"
     if not os.path.isdir(savedir):
@@ -93,13 +94,15 @@ def query_hf(
     print(f"> Running {len(question_ids)} Qs")
     model_path = model_name
     if "mt0" in model_name_:
+        model_path = "../models2/mt0-xxl" 
         model = AutoModelForSeq2SeqLM.from_pretrained(model_name, device_map="cpu", torch_dtype=torch.float16).to(device)
     else:
         # model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.bfloat16, trust_remote_code=True).to(device)
         if "AceGPT" in model_name:
-            model_path = "/mnt/u14157_ic_nlp_001_files_nfs/nlpdata1/home/bkhmsi/models/models--FreedomIntelligence--AceGPT-13B-chat/snapshots/ab87ccbc2c4a05969957755aaabc04400bb20052"
+            model_path = "../models2/AceGPT-13B-chat"
         elif "Llama" in model_name:
-            model_path = "/mnt/u14157_ic_nlp_001_files_nfs/nlpdata1/home/bkhmsi/models/models--meta-llama--Llama-2-13b-chat-hf/snapshots/c2f3ec81aac798ae26dcc57799a994dfbf521496" 
+            # model_path = "/mnt/u14157_ic_nlp_001_files_nfs/nlpdata1/home/bkhmsi/models/models--meta-llama--Llama-2-13b-chat-hf/snapshots/c2f3ec81aac798ae26dcc57799a994dfbf521496"
+            model_path = "../models2/Llama-2-13b-chat-hf" 
         model = AutoModelForCausalLM.from_pretrained(model_path, device_map="cpu", torch_dtype=torch.float16).to(device)
 
     tokenizer = AutoTokenizer.from_pretrained(model_path)

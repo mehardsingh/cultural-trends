@@ -53,12 +53,14 @@ def dataframe_intersection(
 
 if __name__ == "__main__":
 
-    LANGS = ["en", "ar"] # ar
-    MODELS_COUNTRY = ["egypt", "us"][:1]
-    SURVEY_COUNTRY = "us"
+    # LANGS = ["en", "ar"] # ar
+    LANGS = ["en"] # ar
+    MODELS_COUNTRY = ["egypt"]
+    SURVEY_COUNTRY = "egypt"
 
     # MODELS = ['AceGPT-13B-chat', 'Llama-2-13b-chat-hf', "mt0-xxl", "gpt-3.5-turbo-0613"]
-    MODELS = ['AceGPT-13B-chat', 'Llama-2-13b-chat-hf', "gpt-3.5-turbo-1106", "mt0-xxl"]
+    # MODELS = ['AceGPT-13B-chat', 'Llama-2-13b-chat-hf', "gpt-3.5-turbo-1106", "mt0-xxl"]
+    MODELS = ['AceGPT-13B-chat']
 
     EVAL_METHOD = "mv_sample" # {"flatten", "mv_sample", "mv_all"}
     SCALE_QS = False # {False, True}
@@ -104,7 +106,7 @@ if __name__ == "__main__":
     
     wvs_question_map = create_wvs_question_map(survey_df.columns.tolist(), selected_questions)
     other_wvs_question_map = create_wvs_question_map(other_survey_df.columns.tolist(), selected_questions)
-    wvs_response_map = read_json("../dataset/wvs_response_map_new.json")
+    wvs_response_map = read_json("../dataset/wvs_response_map.json")
     str_columns = ['persona.region', 'persona.sex', 'persona.country', 'persona.marital_status', 'persona.education', 'persona.social_class']
     # columns = ['persona.region', 'persona.sex', 'persona.age', 'persona.country', 'persona.marital_status', 'persona.education', 'persona.social_class', 'question.id', 'question.variant', 'response.id']
     # wvs_response_map_reverse = {}
@@ -143,6 +145,7 @@ if __name__ == "__main__":
         # columns_by = ['persona.region', 'persona.sex', 'persona.age', 'persona.marital_status', 'persona.country', 'persona.education', 'persona.social_class', 'question.id', 'question.variant']
         # columns_by = ['persona.region', 'persona.sex', 'persona.age']
     print(f"Results: {len(all_results[0])}")
+    print(all_results)
 
     for result in all_results:
         result.sort_values(by=columns_by, inplace=True)

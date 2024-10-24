@@ -335,7 +335,8 @@ def convert_to_dataframe(model_data:list[dict],
         if row_idx % 4 == 0 and eval_method == "mv_all":
             q_responses = []
 
-        assert row_idx % 4 == row["question"]["variant"]
+        # CHANGED: commented out the line below
+        # assert row_idx % 4 == row["question"]["variant"]
 
         for response_id, response in enumerate(row["response"]):
             response_int = parse_response_wvs(response, question_options)

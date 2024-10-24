@@ -1,0 +1,304 @@
+,persona.region,persona.sex,persona.age,persona.country,persona.marital_status,persona.education,persona.social_class,question.id,question.variant,response.id,response.answer
+0,Fayoum,male,46,Egypt,married,higher,lower middle class,Q124,0,4,3
+1,Fayoum,female,30,Egypt,married,middle,lower middle class,Q124,0,4,3
+2,Fayoum,male,60,Egypt,married,higher,working class,Q124,0,4,1
+3,Fayoum,male,20,Egypt,single,middle,lower middle class,Q124,0,4,3
+4,Fayoum,female,39,Egypt,married,higher,lower middle class,Q124,0,4,3
+5,Fayoum,male,33,Egypt,married,higher,working class,Q124,0,4,3
+6,Port Said,female,45,Egypt,married,higher,lower middle class,Q124,0,4,3
+7,Port Said,male,42,Egypt,married,middle,lower middle class,Q124,0,4,3
+8,Port Said,male,28,Egypt,single,middle,lower middle class,Q124,0,4,3
+9,Port Said,female,30,Egypt,married,higher,lower middle class,Q124,0,4,3
+10,Port Said,male,30,Egypt,divorced,middle,lower middle class,Q124,0,4,3
+11,Port Said,female,19,Egypt,single,middle,lower middle class,Q124,0,4,3
+12,Fayoum,male,40,Egypt,married,middle,working class,Q124,0,4,3
+13,Fayoum,male,23,Egypt,single,higher,lower middle class,Q124,0,4,3
+14,Fayoum,female,38,Egypt,married,middle,lower middle class,Q124,0,4,3
+15,Fayoum,male,32,Egypt,married,middle,lower middle class,Q124,0,4,3
+16,Fayoum,male,31,Egypt,married,higher,working class,Q124,0,4,3
+17,Fayoum,male,31,Egypt,married,middle,lower middle class,Q124,0,4,3
+18,Fayoum,female,32,Egypt,married,middle,lower middle class,Q124,0,4,3
+19,Ismailia,male,53,Egypt,married,middle,lower middle class,Q124,0,4,1
+20,Ismailia,male,38,Egypt,married,higher,working class,Q124,0,4,3
+21,Ismailia,female,35,Egypt,married,middle,lower middle class,Q124,0,4,3
+22,Ismailia,female,57,Egypt,married,lower,working class,Q124,0,4,3
+23,Ismailia,male,33,Egypt,married,middle,lower middle class,Q124,0,4,3
+24,Ismailia,female,49,Egypt,single,higher,upper middle class,Q124,0,4,3
+25,Ismailia,female,35,Egypt,married,higher,lower middle class,Q124,0,4,3
+26,Ismailia,male,24,Egypt,single,higher,upper middle class,Q124,0,4,3
+27,Ismailia,female,23,Egypt,single,higher,lower middle class,Q124,0,4,3
+28,Ismailia,male,55,Egypt,married,middle,lower middle class,Q124,0,4,3
+29,Ismailia,male,57,Egypt,married,middle,upper middle class,Q124,0,4,3
+30,Ismailia,female,29,Egypt,married,middle,upper middle class,Q124,0,4,3
+31,Damiatta,female,46,Egypt,married,middle,lower middle class,Q124,0,4,3
+32,Damiatta,female,20,Egypt,single,middle,lower middle class,Q124,0,4,3
+33,Damiatta,male,19,Egypt,single,middle,lower middle class,Q124,0,4,3
+34,Damiatta,female,33,Egypt,married,higher,lower middle class,Q124,0,4,3
+35,Damiatta,male,24,Egypt,single,higher,lower middle class,Q124,0,4,3
+36,Suez,male,41,Egypt,married,middle,working class,Q124,0,4,3
+37,Suez,female,39,Egypt,divorced,middle,working class,Q124,0,4,3
+38,Cairo,female,55,Egypt,married,middle,working class,Q124,0,4,3
+39,Cairo,male,58,Egypt,married,middle,lower middle class,Q124,0,4,3
+40,Cairo,female,29,Egypt,married,higher,lower middle class,Q124,0,4,3
+41,Cairo,male,38,Egypt,married,higher,lower middle class,Q124,0,4,3
+42,Cairo,female,40,Egypt,married,higher,lower middle class,Q124,0,4,3
+43,Cairo,male,38,Egypt,married,higher,upper middle class,Q124,0,4,3
+44,Cairo,male,59,Egypt,married,middle,lower middle class,Q124,0,4,1
+45,Cairo,female,30,Egypt,married,higher,upper middle class,Q124,0,4,3
+46,Cairo,male,22,Egypt,single,middle,lower middle class,Q124,0,4,3
+47,Cairo,male,29,Egypt,single,higher,lower middle class,Q124,0,4,3
+48,Cairo,female,31,Egypt,married,higher,lower middle class,Q124,0,4,1
+49,Cairo,male,59,Egypt,married,higher,upper middle class,Q124,0,4,3
+50,Cairo,male,27,Egypt,single,middle,working class,Q124,0,4,1
+51,Cairo,female,25,Egypt,single,higher,working class,Q124,0,4,3
+52,Cairo,female,23,Egypt,married,higher,lower middle class,Q124,0,4,3
+53,Cairo,male,58,Egypt,married,higher,working class,Q124,0,4,3
+54,Cairo,female,40,Egypt,married,higher,working class,Q124,0,4,3
+55,Cairo,female,36,Egypt,married,middle,upper middle class,Q124,0,4,3
+56,Cairo,male,40,Egypt,married,middle,lower middle class,Q124,0,4,3
+57,Cairo,female,30,Egypt,married,middle,lower class,Q124,0,4,3
+58,Cairo,male,58,Egypt,married,higher,lower middle class,Q124,0,4,3
+59,Cairo,male,50,Egypt,married,middle,lower middle class,Q124,0,4,3
+60,Cairo,female,40,Egypt,married,higher,upper middle class,Q124,0,4,3
+61,Cairo,female,33,Egypt,married,middle,lower middle class,Q124,0,4,3
+62,Cairo,female,37,Egypt,married,middle,lower middle class,Q124,0,4,3
+63,Cairo,male,28,Egypt,married,middle,lower middle class,Q124,0,4,3
+64,Cairo,male,53,Egypt,married,higher,working class,Q124,0,4,3
+65,Cairo,male,45,Egypt,married,higher,lower middle class,Q124,0,4,3
+66,Cairo,male,52,Egypt,married,middle,upper middle class,Q124,0,4,3
+67,Cairo,male,22,Egypt,single,higher,lower middle class,Q124,0,4,3
+68,Cairo,female,57,Egypt,divorced,middle,lower middle class,Q124,0,4,3
+69,Cairo,female,42,Egypt,married,middle,working class,Q124,0,4,3
+70,Cairo,female,23,Egypt,single,middle,lower middle class,Q124,0,4,3
+71,Cairo,female,28,Egypt,married,higher,upper middle class,Q124,0,4,3
+72,Cairo,female,22,Egypt,single,higher,lower middle class,Q124,0,4,3
+73,Cairo,female,39,Egypt,married,middle,lower middle class,Q124,0,4,3
+74,Cairo,male,19,Egypt,single,middle,working class,Q124,0,4,3
+75,Cairo,female,54,Egypt,married,middle,working class,Q124,0,4,3
+76,Cairo,male,30,Egypt,married,higher,working class,Q124,0,4,3
+77,Cairo,male,39,Egypt,married,higher,lower middle class,Q124,0,4,3
+78,Cairo,female,41,Egypt,married,middle,lower middle class,Q124,0,4,3
+79,Cairo,male,45,Syria,single,higher,upper middle class,Q124,0,4,3
+80,Cairo,male,54,Egypt,married,higher,lower middle class,Q124,0,4,1
+81,Cairo,male,65,Egypt,married,middle,upper middle class,Q124,0,4,3
+82,Cairo,female,52,Egypt,married,middle,upper middle class,Q124,0,4,3
+83,Cairo,male,26,Egypt,single,higher,lower middle class,Q124,0,4,3
+84,Cairo,male,32,Egypt,married,middle,working class,Q124,0,4,3
+85,Cairo,male,38,Egypt,married,middle,lower middle class,Q124,0,4,3
+86,Cairo,male,58,Egypt,married,higher,upper middle class,Q124,0,4,3
+87,Cairo,male,49,Egypt,married,middle,lower middle class,Q124,0,4,3
+88,Cairo,female,29,Egypt,married,middle,working class,Q124,0,4,3
+89,Cairo,female,36,Egypt,married,higher,lower middle class,Q124,0,4,3
+90,Cairo,female,34,Egypt,married,middle,lower middle class,Q124,0,4,3
+91,Fayoum,male,57,Egypt,married,middle,working class,Q124,0,4,3
+92,Fayoum,male,60,Egypt,married,middle,lower middle class,Q124,0,4,3
+93,Fayoum,male,21,Egypt,single,middle,lower middle class,Q124,0,4,3
+94,Fayoum,male,33,Egypt,single,higher,working class,Q124,0,4,3
+95,Fayoum,male,32,Egypt,married,higher,lower middle class,Q124,0,4,3
+96,Gharbia,male,42,Egypt,married,higher,upper middle class,Q124,0,4,3
+97,Gharbia,male,52,Egypt,married,middle,working class,Q124,0,4,3
+98,Gharbia,male,45,Egypt,divorced,higher,upper middle class,Q124,0,4,3
+99,Behaira,male,23,Egypt,single,middle,lower class,Q124,0,4,3
+100,Behaira,male,38,Egypt,single,higher,lower class,Q124,0,4,3
+101,Behaira,male,32,Egypt,married,middle,lower class,Q124,0,4,3
+102,Behaira,female,37,Egypt,married,middle,working class,Q124,0,4,3
+103,Behaira,male,48,Egypt,married,middle,working class,Q124,0,4,3
+104,Behaira,female,34,Egypt,married,middle,lower class,Q124,0,4,3
+105,Behaira,female,30,Egypt,divorced,lower,lower class,Q124,0,4,3
+106,Behaira,male,40,Egypt,married,higher,lower middle class,Q124,0,4,3
+107,Behaira,male,38,Egypt,married,middle,working class,Q124,0,4,3
+108,Behaira,female,30,Egypt,married,higher,lower class,Q124,0,4,3
+109,Behaira,female,35,Egypt,married,middle,working class,Q124,0,4,3
+110,Behaira,male,52,Egypt,married,middle,lower class,Q124,0,4,3
+111,Alexandria,female,41,Egypt,single,middle,lower class,Q124,0,4,3
+112,Alexandria,female,21,Egypt,single,middle,lower class,Q124,0,4,3
+113,Alexandria,female,35,Egypt,married,middle,lower class,Q124,0,4,3
+114,Alexandria,male,34,Egypt,married,higher,working class,Q124,0,4,3
+115,Alexandria,female,37,Egypt,married,higher,lower middle class,Q124,0,4,3
+116,Alexandria,female,56,Egypt,divorced,middle,working class,Q124,0,4,1
+117,Alexandria,male,48,Egypt,married,higher,working class,Q124,0,4,3
+118,Alexandria,female,30,Egypt,married,middle,working class,Q124,0,4,3
+119,Alexandria,male,19,Egypt,single,middle,lower class,Q124,0,4,3
+120,Alexandria,male,45,Egypt,married,middle,lower middle class,Q124,0,4,3
+121,Alexandria,male,23,Egypt,single,higher,lower class,Q124,0,4,3
+122,Alexandria,female,28,Egypt,married,middle,working class,Q124,0,4,3
+123,Alexandria,male,34,Egypt,single,higher,working class,Q124,0,4,3
+124,Alexandria,male,30,Egypt,married,higher,lower middle class,Q124,0,4,3
+125,Alexandria,female,49,Egypt,married,higher,lower middle class,Q124,0,4,3
+126,Kafr el-sheikh,male,49,Egypt,married,higher,working class,Q124,0,4,3
+127,Kafr el-sheikh,male,25,Egypt,single,middle,lower middle class,Q124,0,4,3
+128,Kafr el-sheikh,male,59,Egypt,married,higher,lower middle class,Q124,0,4,3
+129,Kafr el-sheikh,female,38,Egypt,married,middle,working class,Q124,0,4,3
+130,Kafr el-sheikh,male,35,Egypt,married,higher,lower middle class,Q124,0,4,3
+131,Kafr el-sheikh,male,49,Egypt,married,middle,lower class,Q124,0,4,3
+132,Kafr el-sheikh,male,37,Egypt,married,middle,lower class,Q124,0,4,3
+133,Menofia,female,22,Egypt,single,middle,lower class,Q124,0,4,3
+134,Menofia,female,25,Egypt,married,middle,lower class,Q124,0,4,3
+135,Menofia,male,28,Egypt,single,higher,working class,Q124,0,4,3
+136,Menofia,male,35,Egypt,married,middle,lower middle class,Q124,0,4,3
+137,Menofia,male,55,Egypt,married,middle,working class,Q124,0,4,3
+138,Menofia,male,53,Egypt,married,higher,lower middle class,Q124,0,4,3
+139,Menofia,male,59,Egypt,married,middle,working class,Q124,0,4,3
+140,Menofia,female,42,Egypt,married,middle,lower middle class,Q124,0,4,3
+141,Menofia,male,39,Egypt,married,higher,working class,Q124,0,4,3
+142,Menofia,male,34,Egypt,married,middle,lower middle class,Q124,0,4,3
+143,Menofia,male,22,Egypt,single,higher,working class,Q124,0,4,3
+144,Menofia,male,21,Egypt,single,middle,working class,Q124,0,4,3
+145,Menofia,male,36,Egypt,married,higher,working class,Q124,0,4,3
+146,Menofia,female,52,Egypt,married,higher,lower middle class,Q124,0,4,3
+147,Menofia,male,52,Egypt,married,higher,lower middle class,Q124,0,4,3
+148,Menofia,male,39,Egypt,married,middle,lower class,Q124,0,4,3
+149,Menofia,male,23,Egypt,single,middle,lower middle class,Q124,0,4,3
+150,Dakahlia,female,24,Egypt,single,higher,lower middle class,Q124,0,4,3
+151,Dakahlia,male,36,Egypt,married,higher,upper middle class,Q124,0,4,3
+152,Dakahlia,female,71,Egypt,married,higher,upper middle class,Q124,0,4,3
+153,Dakahlia,male,55,Egypt,married,higher,upper middle class,Q124,0,4,3
+154,Dakahlia,male,64,Egypt,married,higher,lower middle class,Q124,0,4,3
+155,Dakahlia,female,29,Egypt,married,middle,lower class,Q124,0,4,3
+156,Dakahlia,female,40,Egypt,married,middle,upper middle class,Q124,0,4,3
+157,Dakahlia,male,37,Egypt,married,higher,lower middle class,Q124,0,4,3
+158,Dakahlia,female,45,Egypt,married,middle,working class,Q124,0,4,3
+159,Dakahlia,male,34,Egypt,single,middle,lower middle class,Q124,0,4,3
+160,Dakahlia,female,26,Egypt,married,higher,upper middle class,Q124,0,4,3
+161,Dakahlia,male,21,Egypt,single,middle,upper middle class,Q124,0,4,3
+162,Dakahlia,female,32,Egypt,married,middle,working class,Q124,0,4,3
+163,Dakahlia,female,35,Egypt,married,middle,upper middle class,Q124,0,4,3
+164,Dakahlia,male,33,Egypt,married,middle,upper middle class,Q124,0,4,3
+165,Dakahlia,female,45,Egypt,married,middle,upper middle class,Q124,0,4,3
+166,Dakahlia,male,30,Egypt,married,middle,upper middle class,Q124,0,4,3
+167,Dakahlia,female,63,Egypt,married,higher,lower middle class,Q124,0,4,1
+168,Dakahlia,male,28,Egypt,single,higher,upper middle class,Q124,0,4,1
+169,Dakahlia,female,24,Egypt,married,higher,upper middle class,Q124,0,4,3
+170,Dakahlia,male,20,Egypt,single,middle,upper middle class,Q124,0,4,3
+171,Dakahlia,male,45,Egypt,married,middle,upper middle class,Q124,0,4,3
+172,Dakahlia,female,43,Egypt,married,higher,upper middle class,Q124,0,4,3
+173,Dakahlia,female,20,Egypt,single,middle,upper middle class,Q124,0,4,3
+174,Dakahlia,female,40,Egypt,single,middle,lower middle class,Q124,0,4,3
+175,Dakahlia,female,33,Egypt,married,higher,upper middle class,Q124,0,4,3
+176,Dakahlia,female,24,Egypt,married,middle,working class,Q124,0,4,3
+177,Dakahlia,female,53,Egypt,widowed,middle,working class,Q124,0,4,3
+178,Dakahlia,female,30,Egypt,single,middle,lower middle class,Q124,0,4,3
+179,Dakahlia,male,53,Egypt,married,higher,upper middle class,Q124,0,4,3
+180,Dakahlia,male,28,Egypt,married,middle,working class,Q124,0,4,3
+181,Dakahlia,female,38,Egypt,married,middle,upper middle class,Q124,0,4,3
+182,Gharbia,male,27,Egypt,single,higher,upper middle class,Q124,0,4,3
+183,Gharbia,female,35,Egypt,married,higher,upper middle class,Q124,0,4,1
+184,Gharbia,female,37,Egypt,married,higher,upper middle class,Q124,0,4,3
+185,Gharbia,male,43,Egypt,married,middle,lower middle class,Q124,0,4,3
+186,Gharbia,male,28,Egypt,single,higher,lower middle class,Q124,0,4,3
+187,Gharbia,male,39,Egypt,married,middle,lower middle class,Q124,0,4,3
+188,Gharbia,male,30,Egypt,married,middle,lower middle class,Q124,0,4,3
+189,Gharbia,male,43,Egypt,married,lower,lower middle class,Q124,0,4,3
+190,Gharbia,male,36,Egypt,married,higher,lower middle class,Q124,0,4,3
+191,Gharbia,male,25,Egypt,married,middle,upper middle class,Q124,0,4,3
+192,Gharbia,male,31,Egypt,married,middle,upper middle class,Q124,0,4,3
+193,Gharbia,male,33,Egypt,married,higher,lower middle class,Q124,0,4,3
+194,Gharbia,male,26,Egypt,single,higher,upper middle class,Q124,0,4,3
+195,Gharbia,female,45,Egypt,married,middle,lower middle class,Q124,0,4,3
+196,Gharbia,female,55,Egypt,married,middle,upper middle class,Q124,0,4,3
+197,Gharbia,female,27,Egypt,married,higher,upper middle class,Q124,0,4,3
+198,Gharbia,female,42,Egypt,married,higher,upper middle class,Q124,0,4,3
+199,Gharbia,female,32,Egypt,married,middle,upper middle class,Q124,0,4,1
+200,Gharbia,male,27,Egypt,married,higher,upper middle class,Q124,0,4,3
+201,Gharbia,female,27,Egypt,married,higher,lower middle class,Q124,0,4,3
+202,Gharbia,female,37,Egypt,married,middle,upper middle class,Q124,0,4,3
+203,Gharbia,male,28,Egypt,married,higher,working class,Q124,0,4,3
+204,Gharbia,female,50,Egypt,married,middle,upper middle class,Q124,0,4,3
+205,Gharbia,male,39,Egypt,single,higher,working class,Q124,0,4,3
+206,Gharbia,female,45,Egypt,married,higher,upper middle class,Q124,0,4,3
+207,Sharkia,male,35,Egypt,married,higher,upper middle class,Q124,0,4,3
+208,Sharkia,female,55,Egypt,married,middle,lower middle class,Q124,0,4,3
+209,Sharkia,female,27,Egypt,married,middle,lower middle class,Q124,0,4,3
+210,Sharkia,female,52,Egypt,married,middle,lower middle class,Q124,0,4,3
+211,Sharkia,male,36,Egypt,married,middle,lower middle class,Q124,0,4,3
+212,Sharkia,female,20,Egypt,single,middle,working class,Q124,0,4,3
+213,Sharkia,male,60,Egypt,married,middle,working class,Q124,0,4,3
+214,Sharkia,male,41,Egypt,married,higher,upper middle class,Q124,0,4,3
+215,Sharkia,female,23,Egypt,married,middle,lower middle class,Q124,0,4,3
+216,Sharkia,male,49,Egypt,married,higher,upper middle class,Q124,0,4,3
+217,Sharkia,female,30,Egypt,married,middle,upper middle class,Q124,0,4,3
+218,Sharkia,male,39,Egypt,married,higher,upper middle class,Q124,0,4,3
+219,Sharkia,female,26,Egypt,married,middle,lower middle class,Q124,0,4,3
+220,Sharkia,female,48,Egypt,married,middle,lower middle class,Q124,0,4,3
+221,Sharkia,male,34,Egypt,married,higher,upper middle class,Q124,0,4,3
+222,Sharkia,female,39,Egypt,divorced,middle,lower middle class,Q124,0,4,3
+223,Sharkia,male,39,Egypt,married,middle,upper middle class,Q124,0,4,3
+224,Qaliubiya,male,62,Egypt,married,middle,working class,Q124,0,4,3
+225,Qaliubiya,male,33,Egypt,married,middle,working class,Q124,0,4,3
+226,Qaliubiya,male,62,Egypt,married,higher,lower middle class,Q124,0,4,3
+227,Qaliubiya,male,29,Egypt,married,middle,working class,Q124,0,4,3
+228,Qaliubiya,female,42,Egypt,married,higher,working class,Q124,0,4,3
+229,Qaliubiya,female,50,Egypt,married,middle,lower middle class,Q124,0,4,3
+230,Qaliubiya,male,29,Egypt,married,higher,lower middle class,Q124,0,4,3
+231,Qaliubiya,male,35,Egypt,married,higher,working class,Q124,0,4,3
+232,Qaliubiya,female,40,Egypt,married,middle,working class,Q124,0,4,3
+233,Qaliubiya,female,48,Egypt,divorced,lower,working class,Q124,0,4,3
+234,Qaliubiya,male,46,Egypt,married,middle,working class,Q124,0,4,3
+235,Qaliubiya,male,47,Egypt,married,higher,lower middle class,Q124,0,4,3
+236,Qaliubiya,female,38,Egypt,married,higher,working class,Q124,0,4,3
+237,Qaliubiya,male,58,Egypt,married,middle,working class,Q124,0,4,3
+238,Qaliubiya,female,27,Egypt,married,higher,working class,Q124,0,4,3
+239,Qaliubiya,female,48,Egypt,married,middle,upper middle class,Q124,0,4,3
+240,Giza,female,19,Egypt,single,middle,working class,Q124,0,4,3
+241,Giza,female,38,Egypt,married,higher,lower middle class,Q124,0,4,3
+242,Beni Swaif/Beni Suef,female,34,Egypt,divorced,higher,lower class,Q124,0,4,3
+243,Beni Swaif/Beni Suef,male,20,Egypt,single,higher,working class,Q124,0,4,3
+244,Giza,male,19,Egypt,single,middle,upper middle class,Q124,0,4,3
+245,Giza,female,33,Egypt,married,middle,working class,Q124,0,4,3
+246,Giza,female,24,Egypt,married,higher,working class,Q124,0,4,3
+247,Giza,male,50,Egypt,married,higher,working class,Q124,0,4,3
+248,Beni Swaif/Beni Suef,female,26,Egypt,married,higher,lower middle class,Q124,0,4,3
+249,Beni Swaif/Beni Suef,male,40,Egypt,single,lower,lower class,Q124,0,4,3
+250,Beni Swaif/Beni Suef,female,25,Egypt,married,middle,lower middle class,Q124,0,4,3
+251,Beni Swaif/Beni Suef,female,21,Egypt,single,middle,lower middle class,Q124,0,4,3
+252,Beni Swaif/Beni Suef,male,48,Egypt,married,middle,lower middle class,Q124,0,4,3
+253,Beni Swaif/Beni Suef,female,57,Egypt,married,middle,working class,Q124,0,4,3
+254,Beni Swaif/Beni Suef,male,20,Egypt,single,middle,working class,Q124,0,4,3
+255,Giza,female,59,Egypt,married,higher,upper middle class,Q124,0,4,3
+256,Giza,female,38,Egypt,single,higher,lower middle class,Q124,0,4,3
+257,Giza,female,26,Egypt,single,higher,working class,Q124,0,4,3
+258,Giza,male,39,Egypt,married,middle,working class,Q124,0,4,3
+259,Giza,male,36,Egypt,married,middle,working class,Q124,0,4,3
+260,Giza,female,30,Egypt,single,higher,lower class,Q124,0,4,3
+261,Giza,female,24,Egypt,single,higher,lower class,Q124,0,4,3
+262,Giza,male,65,Egypt,married,middle,working class,Q124,0,4,3
+263,Giza,female,56,Egypt,married,middle,working class,Q124,0,4,3
+264,Giza,male,31,Egypt,married,higher,lower middle class,Q124,0,4,3
+265,Giza,male,28,Egypt,single,middle,working class,Q124,0,4,3
+266,Giza,male,47,Egypt,married,middle,lower middle class,Q124,0,4,3
+267,Giza,male,26,Egypt,single,middle,lower middle class,Q124,0,4,3
+268,Giza,male,48,Egypt,married,middle,upper middle class,Q124,0,4,3
+269,Menya,male,61,Egypt,married,middle,working class,Q124,0,4,3
+270,Menya,male,41,Egypt,married,middle,lower middle class,Q124,0,4,3
+271,Menya,female,43,Egypt,married,higher,working class,Q124,0,4,3
+272,Menya,male,57,Egypt,married,middle,lower middle class,Q124,0,4,3
+273,Menya,male,42,Egypt,divorced,middle,lower middle class,Q124,0,4,3
+274,Menya,female,59,Egypt,married,middle,upper middle class,Q124,0,4,3
+275,Menya,female,31,Egypt,married,middle,working class,Q124,0,4,3
+276,Menya,male,55,Egypt,single,middle,working class,Q124,0,4,3
+277,Menya,female,28,Egypt,married,higher,lower middle class,Q124,0,4,3
+278,Menya,male,24,Egypt,single,middle,working class,Q124,0,4,3
+279,Menya,female,23,Egypt,married,middle,working class,Q124,0,4,3
+280,Menya,male,27,Egypt,single,middle,lower middle class,Q124,0,4,3
+281,Asyut,male,30,Egypt,married,middle,working class,Q124,0,4,3
+282,Asyut,female,26,Egypt,married,middle,working class,Q124,0,4,3
+283,Asyut,male,32,Egypt,single,higher,lower middle class,Q124,0,4,3
+284,Asyut,female,21,Egypt,married,middle,working class,Q124,0,4,3
+285,Asyut,female,30,Egypt,married,higher,working class,Q124,0,4,3
+286,Asyut,female,42,Egypt,married,higher,lower middle class,Q124,0,4,3
+287,Sohag,male,63,Egypt,married,middle,lower middle class,Q124,0,4,3
+288,Sohag,male,27,Egypt,married,middle,working class,Q124,0,4,3
+289,Sohag,male,56,Egypt,married,higher,upper middle class,Q124,0,4,3
+290,Sohag,male,51,Egypt,married,higher,lower middle class,Q124,0,4,3
+291,Sohag,female,26,Egypt,married,higher,working class,Q124,0,4,3
+292,Sohag,female,29,Egypt,married,higher,upper middle class,Q124,0,4,3
+293,Sohag,male,51,Egypt,married,middle,lower middle class,Q124,0,4,3
+294,Qena,male,32,Egypt,single,middle,working class,Q124,0,4,3
+295,Qena,male,54,Egypt,married,middle,lower middle class,Q124,0,4,3
+296,Qena,male,25,Egypt,single,lower,lower class,Q124,0,4,3
+297,Aswan,male,34,Egypt,single,middle,lower class,Q124,0,4,3
+298,Aswan,female,31,Egypt,married,middle,lower middle class,Q124,0,4,3
+299,Aswan,female,39,Egypt,married,middle,working class,Q124,0,4,3
+300,Qena,female,27,Egypt,married,lower,lower middle class,Q124,0,4,3
+301,Qena,male,40,Egypt,single,middle,lower middle class,Q124,0,4,3
+302,Qena,male,30,Egypt,single,middle,working class,Q124,0,4,3
